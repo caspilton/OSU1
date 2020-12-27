@@ -8,6 +8,7 @@ int main() {
   while ((n > 5)||(n < 1)) {
     printf("Incorrect the unit number!\n");
     printf("Enter the unit number (1 - decimeter, 2 - kilometer, 3 - meter, 4 - millimeter, 5 - centimeter): ");
+    scanf("%d", &n);
   }
   printf("Enter length: ");
   scanf("%lf", &L);
