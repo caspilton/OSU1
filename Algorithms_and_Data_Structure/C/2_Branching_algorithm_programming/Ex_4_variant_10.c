@@ -9,7 +9,7 @@ int main() {
     printf("Incorrect the unit number!\n");
     printf("Enter the unit number (1 - decimeter, 2 - kilometer, 3 - meter, 4 - millimeter, 5 - centimeter): ");
   }
-  printf("Enter lenght: ");
+  printf("Enter length: ");
   scanf("%lf", &L);
   switch(n) {
     case 1:
@@ -27,6 +27,6 @@ int main() {
       L /= 100;
       break;
   }
-  if (L == 1) printf("Lenght = 1 meter\n");
-  else printf("Lenght = %lf meters\n", L);
+  if (L == 1) printf("Length = 1 meter\n");
+  else printf("Length = %lf meters\n", L);
 }
