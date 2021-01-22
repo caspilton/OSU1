@@ -3,7 +3,7 @@
 
 int main() { // I did it without array realisation, becouse we can use less memory
   unsigned int n; // count of array elements
-  printf("Введите размер массива: ");
+  printf("Input array size: ");
   scanf("%d", &n);
   // memory allocation
   int min = 2147483647, max = -2147483648;
