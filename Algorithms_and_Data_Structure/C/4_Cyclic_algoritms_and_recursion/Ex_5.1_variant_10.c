@@ -4,11 +4,11 @@
 void addition(int a, int b) {
   printf("Addition table:\n");
   printf("%4d ", 0);
-  for (int i = a; i <= b; i++) printf("%4x ", i);
+  for (int i = a; i <= b; i++) printf("%4d ", i);
   printf("\n");
   for (int i = a; i <= b; i++) {
-    printf("%4x ", i);
-    for (int j = a; j <= b; j++) printf("%4x ", i+j);
+    printf("%4d ", i);
+    for (int j = a; j <= b; j++) printf("%4d ", i+j);
     printf("\n");  
   }
 }
@@ -16,11 +16,11 @@ void addition(int a, int b) {
 void multiplication(int a, int b) {
   printf("Multiplication table:\n");
   printf("%4d ", 0);
-  for (int i = a; i <= b; i++) printf("%4x ", i);
+  for (int i = a; i <= b; i++) printf("%4d ", i);
   printf("\n");
   for (int i = a; i <= b; i++) {
-    printf("%4x ", i);
-    for (int j = a; j <= b; j++) printf("%4x ", i*j);
+    printf("%4d ", i);
+    for (int j = a; j <= b; j++) printf("%4d ", i*j);
     printf("\n");  
   }
 }
