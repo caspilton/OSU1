@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <malloc.h>
 
-int main() // I did it without array realisation, becouse we can use less memory
-{
+int main() { // I did it without array realisation, becouse we can use less memory
   unsigned int n; // count of array elements
   printf("Введите размер массива: ");
   scanf("%d", &n);
