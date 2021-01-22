@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(void) {
-	unsigned int multiplication;
+int main() {
+  unsigned int multiplication;
   scanf("%d", &multiplication);
   if (multiplication % 2 == 0) {
     printf("Impossible! Multiplication of odd nummber isn't even number!\n");
