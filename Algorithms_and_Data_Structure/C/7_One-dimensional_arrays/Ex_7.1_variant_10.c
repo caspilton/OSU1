@@ -5,7 +5,7 @@ int main()
 {
   int *a;  // array pointer 
   unsigned int n; // count of array elements
-  printf("Введите размер массива: ");
+  printf("Input array size: ");
   scanf("%d", &n);
   // memory allocation
   a = (int*)malloc(n * sizeof(int));
